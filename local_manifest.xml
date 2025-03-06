@@ -2,17 +2,15 @@
 <manifest>
 
         <!-- Remote -->
-	<remote name="AL" fetch="https://github.com/k4ngcaribug" />
-        <remote name="lab" fetch="https://github.com/vince-labs" />
-	<remote name="cam" fetch="https://github.com/GrapheneOS" />
-	<remote name="los" fetch="https://github.com/lineageos" />
+	<remote name="gh" fetch="https://github.com/Ghnkz" />
 		
         <!-- Trees -->
-        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="lab" revision="15" clone-depth="1" />
-        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="lab" revision="15" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="lab" revision="main" clone-depth="1" />
-	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="lab" revision="15" clone-depth="1" />
-	<project path="platform/external/Camera" name="platform_external_Camera" remote="cam" revision="15" clone-depth="1" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gh" revision="lineage-20" clone-depth="1" />
+        <project path="device/xiaomi/sweet_k6a" name="device_xiaomi_sweet_k6a" remote="gh" revision="afterlife" clone-depth="1" />
+        <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="gh" revision="lineage-20" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet_k6a" name="vendor_xiaomi_sweet_k6a" remote="gh" revision="afterlife" clone-depth="1" />
+        <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="gh" revision="lineage-20" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet_k6a" name="kernel_xiaomi_sweet_k6a" remote="gh" revision="kewl" clone-depth="1" />
+	<project path="vendor/dolby/ds" name="vendor_extra" remote="gh" revision="dolby" clone-depth="1" />
 
 </manifest>
