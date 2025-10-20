@@ -5,10 +5,10 @@
   <remote name="cb" fetch="https://codeberg.org/" />
 
   <!-- Device trees -->
-  <project path="device/xiaomi/sweet" name="sweet-organization/android_device_xiaomi_sweet" remote="gh" revision="bka" />
-  <project path="device/xiaomi/sm6150-common" name="sweet-organization/android_device_xiaomi_sm6150-common" remote="gh" revision="bka" />
-  <project path="device/xiaomi/miuicamera-sweet" name="sweet-organization/android_device_xiaomi_miuicamera-sweet" remote="gh" revision="bka" />
-  <project path="device/qcom/wfd" name="sweet-organization/android_device_qcom_wfd" remote="gh" revision="bka" />
+  <project path="device/xiaomi/sweet" name="Ghnkz/android_device_xiaomi_sweet" remote="gh" revision="bka" />
+  <project path="device/xiaomi/sm6150-common" name="Ghnkz/android_device_xiaomi_sm6150-common" remote="gh" revision="bka" />
+  <project path="device/xiaomi/miuicamera-sweet" name="Ghnkz/android_device_xiaomi_miuicamera-sweet" remote="gh" revision="bka" />
+  <project path="device/qcom/wfd" name="Ghnkz/android_device_qcom_wfd" remote="gh" revision="bka" />
 
   <!-- Vendor blobs -->
   <project path="vendor/xiaomi/sweet" name="sweet-organization/proprietary_vendor_xiaomi_sweet" remote="cb" revision="bka" />
@@ -17,17 +17,13 @@
   <project path="vendor/qcom/wfd" name="sweet-organization/proprietary_vendor_qcom_wfd" remote="cb" revision="bka" />
 
   <!-- Kernel -->
-  <project path="kernel/xiaomi/sm6150" name="sweet-organization/android_kernel_xiaomi_sm6150" remote="gh" revision="bka" />
+  <project path="kernel/xiaomi/sm6150" name="Ghnkz/android_kernel_xiaomi_sm6150" remote="gh" revision="bka" />
 
   <!-- Hardware -->
-  <project path="hardware/dolby" name="sweet-organization/android_hardware_dolby" remote="gh" revision="bka" />
-  <project path="hardware/xiaomi" name="sweet-organization/android_hardware_xiaomi" remote="gh" revision="bka" />
-  <project path="hardware/sony/timekeep" name="sweet-organization/android_hardware_sony_timekeep" remote="gh" revision="bka" />
+  <project path="hardware/dolby" name="Ghnkz/android_hardware_dolby" remote="gh" revision="bka" />
+  <project path="hardware/xiaomi" name="Ghnkz/android_hardware_xiaomi" remote="gh" revision="bka" />
+  <project path="hardware/sony/timekeep" name="Ghnkz/android_hardware_sony_timekeep" remote="gh" revision="bka" />
 
   <!-- Apps -->
-  <project path="packages/apps/ViPER4AndroidFX" name="sweet-organization/android_packages_apps_ViPER4AndroidFX" remote="gh" revision="bka" />
+  <project path="packages/apps/ViPER4AndroidFX" name="Ghnkz/android_packages_apps_ViPER4AndroidFX" remote="gh" revision="bka" />
   <project path="packages/apps/KProfiles" name="sweet-organization/android_packages_apps_KProfiles" remote="gh" revision="bka" />
-
-  <!-- Vendor keys -->
-  <project path="vendor/evolution-priv/keys" name="sweet-organization/android_vendor_evolution-priv_keys" remote="gh" revision="bka" />
-</manifest>
