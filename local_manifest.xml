@@ -11,5 +11,5 @@
         <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="gh" revision="arrow-13.1" clone-depth="1" />
         <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="gh" revision="bka" clone-depth="1" />
 	    <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="gh" revision="thirteen" clone-depth="1" />
-	    <project path="android/packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="gh" revision="bka" clone-depth="1" />
+	    <project path="android/packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="gh" revision="bka" clone-depth="1" />
 </manifest>
