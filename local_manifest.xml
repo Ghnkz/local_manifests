@@ -7,6 +7,6 @@
         <!-- Trees -->
         <project path="device/xiaomi/sweet" name="device_sweet_a11" remote="gh" revision="arrow-11.0" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="vendor_sweet_a11" remote="gh" revision="arrow-11.0" clone-depth="1" />
-        <project path="kernel/xiaomi/sweet" name="kernel_sm6150" remote="gh" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="kernel_sweet_a11" remote="gh" revision="arrow-13.1" clone-depth="1" />
 	    <project path="vendor/ANXCamera" name="vendor_ANXcamera" remote="gh" revision="elle" clone-depth="1" />
 </manifest>
