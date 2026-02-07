@@ -5,8 +5,9 @@
 	<remote name="gh" fetch="https://github.com/Ghnkz" />
 		
         <!-- Trees -->
-        <project path="device/xiaomi/sweet" name="device_sweet_a11" remote="gh" revision="arrow-11.0" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet" name="vendor_sweet_a11" remote="gh" revision="arrow-11.0" clone-depth="1" />
-        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="gh" revision="bka-ksu" clone-depth="1" />
-	    <project path="vendor/ANXCamera" name="vendor_ANXcamera" remote="gh" revision="elle" clone-depth="1" />
+        <project path="device/xiaomi/sweet" name="device_sweet" remote="gh" revision="13" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet" name="vendor_sweet" remote="gh" revision="13" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="gh" revision="bka-ksu" clone-depth="1" />
+	    <project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="gh" revision="master" clone-depth="1" />
+	    <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="gh" revision="thirteen" clone-depth="1" />
 </manifest>
